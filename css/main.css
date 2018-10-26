@@ -18,7 +18,7 @@ html {
 
 .cards li {
   display: inline-block;
-  margin: 0 .5em 1em;
+  margin: .5em 1em;
   max-width: 20em;
   padding: 1em;
   background-color: #fff;
@@ -27,9 +27,16 @@ html {
   text-align: left;
 }
 
-.cards strong {
+.cards img {
   display: block;
   margin: 0 auto 1rem;
+  font-size: 1.125rem;
+}
+
+.cards strong {
+  display: block;
+  margin-bottom: 1rem;
+
   font-size: 1.125rem;
 }
 
@@ -38,6 +45,12 @@ html {
 }
 
 .cards dt {
+  display: inline-block;
+  margin: 6em;
+  font-style: italic;
+}
+
+.cards dd {
   display: inline-block;
   margin: 0;
   min-width: 9em;
